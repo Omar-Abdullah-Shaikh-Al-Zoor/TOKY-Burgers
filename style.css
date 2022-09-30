@@ -7,14 +7,14 @@
 }
 header {
     position: fixed;
-    background-color: #ECB365;
+    background-color: #04293A;
 }
 
 main {
     padding: 0;
     margin: 0;
     height: 100%;
-    background-color: #041C32;
+    background-color: #063d57;
 }
 .container {
     display: flex;
@@ -34,17 +34,21 @@ a{
 .logo, nav button {
     padding-top: 2vh;
 }
-nav button {
-  background-color: #4CAF50;
+nav button, #info-button{
+  background-color: #ECB365;
   border: none;
-  color: white;
+  color: #041C32;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 20px;
   margin: 4px 2px;
   cursor: pointer;
+  border-radius: 20px;
+}
+nav button:hover, #info-button:hover{
+    background-color: #f0c384;    
 }
 .container-2 {
     margin-bottom: 1vh;
@@ -59,6 +63,7 @@ nav button {
     padding: 20px;
     display: flex;
     justify-content: space-between;
+    color: #ECB365;
 }
 
 .container-3 img {
@@ -80,8 +85,9 @@ nav button {
 }
 
 footer {
-    background-color: #ECB365;
+    background-color: #04293A;
     padding: 5px;
+    color: #ECB365;
 }
 footer h3 {
     text-align: center;
