@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>Toky Burgers | Contact</title>
+  <link rel="stylesheet" href="style.css">
 <style>
 body {font-family: Arial, Helvetica, sans-serif;}
 * {box-sizing: border-box;}
@@ -9,6 +11,8 @@ body {font-family: Arial, Helvetica, sans-serif;}
 h3 {
     text-align: center;
     font-size: 2.1rem;
+    padding: 2rem;
+    color: #ECB365;
 }
 form {
     padding: 30px;
@@ -26,20 +30,19 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #04AA6D;
+  background-color: #ECB365;
   color: white;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  align-items: center;
 }
 
 input[type=submit]:hover {
   background-color: #45a049;
 }
 
-.container {
+.container-contact {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 10px;
@@ -50,25 +53,26 @@ input[type=submit]:hover {
 </head>
 <body>
 
-<h3>Contact Form</h3>
+  <main>
+    <h3>Contact Form</h3>
 
-<div class="container">
-  <form action="/action_page.php">
-    <label for="fname">Full Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your full name">
+    <div class="container-contact">
+      <form action="/action_page.php">
+        <label for="fname">Full Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Enter your full name">
 
-    <label for="lname">Email</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your email address">
+        <label for="lname">Email</label>
+        <input type="text" id="lname" name="lastname" placeholder="Enter your email address">
 
-    <label for="lname">Phone</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your phone number">
+        <label for="lname">Phone</label>
+        <input type="text" id="lname" name="lastname" placeholder="Enter your phone number">
 
-    <label for="subject">Message</label>
-    <textarea id="subject" name="subject" placeholder="Write your message" style="height:200px"></textarea>
+        <label for="subject">Message</label>
+        <textarea id="subject" name="subject" placeholder="Write down your message" style="height:200px"></textarea>
 
-    <input type="submit" value="Submit">
-  </form>
-</div>
-
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </main>
 </body>
 </html>
