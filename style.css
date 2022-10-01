@@ -156,12 +156,15 @@ footer h3 {
 }
 .menu-cards h2 {
     padding: 0.6rem;
-    border:#ECB365 solid 0.3rem;
+    border:0.3rem solid #ECB365;
+    border-radius: 2rem;
+    border-width: 2rem 1rem;
+
 }
 .content {
     display: flex;
-    flex-basis: 15%;
     justify-content: center;
+    flex-basis: 15%;
     text-align: center;
     margin: 20px;
     flex-direction: row;
@@ -175,7 +178,7 @@ footer h3 {
 
 .card{
     background-color: white;
-    width: 21.25em;
+    width: 15.25rem;
     box-shadow: 0 5px 25px rgba(1,1,1,0.15);
     border-radius: 30px ;
     padding: 25px;
