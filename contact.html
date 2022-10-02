@@ -1,69 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Toky Burgers | Contact</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  <head>
+    <meta charset="utf-8">
+    <title>Toky Burgers | Contact</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
   
-<header class="relative-header">
-  <div class="container">
-      <a href="index.html" class="logo"><img src="images/TOKY-logo.png" alt="Toky Burger's logo"></a>
-      <nav class="main-nav">
-          <a href="index.html">
-              <button class="pages-nav">
-                  Home
-              </button>
-          </a>
-          <a href="menu.html">
-              <button class="pages-nav">
-                  Menu
-              </button>
-          </a>
-          <a href="contact.html">
-              <button class="pages-nav">
-                  Contact
-              </button>
-          </a>
-          <a href="details.html">
-              <button class="pages-nav">
-                  About Us
-              </button>
-          </a>    
-      </nav>
-  </div>
-</header>
+    <header class="relative-header">
+      <div class="container">
+          <a href="index.html" class="logo"><img src="images/TOKY-logo.png" alt="Toky Burger's logo"></a>
+          <nav class="main-nav">
+              <a href="index.html">
+                  <button class="pages-nav">
+                      Home
+                  </button>
+              </a>
+              <a href="menu.html">
+                  <button class="pages-nav">
+                      Menu
+                  </button>
+              </a>
+              <a href="contact.html">
+                  <button class="pages-nav">
+                      Contact
+                  </button>
+              </a>
+              <a href="details.html">
+                  <button class="pages-nav">
+                      About Us
+                  </button>
+              </a>    
+          </nav>
+      </div>
+    </header>
 
-  <main>
-    <h3 id="contact-h3">Contact Form</h3>
+    <main>
+      <div class="form">
+        <h3 id="contact-h3">Contact Form</h3>
+        <div class="container-contact">
+          <form action="/action_page.php">
+            <label for="fname">Full Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Enter your full name">
 
-    <div class="container-contact">
-      <form action="/action_page.php">
-        <label for="fname">Full Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Enter your full name">
+            <label for="lname">Email</label>
+            <input type="text" id="lname" name="lastname" placeholder="Enter your email address">
 
-        <label for="lname">Email</label>
-        <input type="text" id="lname" name="lastname" placeholder="Enter your email address">
+            <label for="phone">Phone</label>
+            <input type="text" id="lname" name="lastname" placeholder="Enter your phone number">
 
-        <label for="phone">Phone</label>
-        <input type="text" id="lname" name="lastname" placeholder="Enter your phone number">
-
-        <label for="message">Message</label>
-        <textarea id="message" name="message" placeholder="Write down your message"></textarea>
-
-        <input type="submit" value="Submit">
-      </form>
-    </div>
-  </main>
-  <footer>
-    <div class="links">
-        <h3>Visit us On</h3>
-        <a href=""><img src="" alt=""></a>
-        <a href=""></a>
-        <a href=""></a>
-    </div>
-    <p class="copyright">&copy; Copyright 2022 Toky Burgers .All rights reserved.</p>
-</footer>
-</body>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Write down your message"></textarea>
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+        <h3>.</h3>
+      </div>
+    </main>
+    <footer>
+        <div class="links">
+            <h3>Visit us On</h3>
+            <a href=""><img src="" alt=""></a>
+            <a href=""></a>
+            <a href=""></a>
+        </div>
+        <p class="copyright">&copy; Copyright 2022 Toky Burgers .All rights reserved.</p>
+    </footer>
+  </body>
 </html>
