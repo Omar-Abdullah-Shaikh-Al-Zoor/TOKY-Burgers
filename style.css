@@ -1,57 +1,56 @@
 *{
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans', 'Poppins', sans-serif;
     margin: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-.fixed-header {
+header {
     position: sticky;
     top: 0;
     background-color: #04293A;
     z-index: 999;
-}
-.relative-header{
-    position: relative;
-    background-color: #04293A;
+    height: 14vh;
+    
 }
 
+body{
+    background-color: #063d57;
+}
 main {
     padding: 0;
     margin: 0;
-    padding-top: 12vh;
     height: 100%;
-    background-color: #063d57;
+    
 }
 .container {
     display: flex;
     justify-content: space-between;
-    width: 100vw;
-    height: 12vh; 
-    padding: 1.2rem;
+    width: 98vw;
+    height: 14vh; 
+    align-items: center;
 }
 a{
     text-decoration: none;
 }
-
-.logo, .pages-nav {
-    padding-top: 5em;
-}
 .logo img{
     width: 6vw;
     padding-left: 1rem;
+    
  }
+
 .pages-nav, .menu-nav-button, #info-button{
   background-color: #ECB365;
   border: none;
   color: #041C32;
-  padding: 15px 32px;
+  padding: 1.5vh 2vw;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  margin: 4px 2px;
+  margin: 0.2vw;
   cursor: pointer;
-  border-radius: 20px;
+  border-radius: 15px;
+  font-size: 1.2em;
+  
   
 }
 .pages-nav:hover, .menu-nav-button:hover, #info-button:hover{
@@ -61,8 +60,11 @@ a{
     margin-bottom: 1vh;
 }
 .featured_img {
-    width: 100vw;
-    height: 100vh;
+    margin-top: 1vh;
+    display: block;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .container-3{
@@ -154,7 +156,7 @@ footer h3 {
 .menu-nav {
     display: flex;
     justify-content: space-between;
-    width: 100vw;
+    width: 98vw;
     padding: 1.6rem;
 }
 .menu h1, .menu-cards h2 {
@@ -212,7 +214,8 @@ footer h3 {
 #contact-h3 {
     text-align: center;
     font-size: 2.1rem;
-    padding: 2vh;
+    padding-top: 6vh;
+    padding-bottom: 2vh;
     color: #ECB365;
 }
 
@@ -249,9 +252,8 @@ input[type=text], textarea {
   .container-contact {
     border-radius: 1rem;
     background-color: #f2f2f2;
-    padding: 2vh;
-    margin-left: 25%;
-    margin-right: 25%;
+    padding: 1vh;
+    margin: 0vh 25vw 10vh;
   }
 
   #message{
