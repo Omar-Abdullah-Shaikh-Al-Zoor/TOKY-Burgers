@@ -49,9 +49,7 @@ a{
   margin: 0.2vw;
   cursor: pointer;
   border-radius: 15px;
-  font-size: 1.2em;
-  
-  
+  font-size: 1.2em;  
 }
 .pages-nav:hover, .menu-nav-button:hover, #info-button:hover{
     background-color: #f0c384;    
@@ -75,22 +73,25 @@ a{
 }
 
 .container-3 img{
-    height: 110vh;
+    height: 90vh;
     width: 60vw;
 }
 
-.container-3 div{
+.container-3 div{    
     padding-left: 3vh;
-    padding-top: 0vh;
+    padding-top: 25vh;
 }
 
 .container-3 div p{
-    font-size: 2rem;
-    padding-bottom: 20vh;
+    font-size: 1.6rem;
+    padding-bottom: 2vh;
 }
 
 .container-3 div a{
-    padding-left: 30vh;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1.2rem;
+    position: relative;
+    left: 27vh;
 }
 
 .container-4{
@@ -235,6 +236,7 @@ input[type=text], textarea {
   }
 
   input[type=submit] {
+    font-size: 1rem;
     background-color: #ECB365;
     color: white;
     padding: 2vh 4vh;
