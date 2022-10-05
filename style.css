@@ -149,6 +149,12 @@ footer h3 {
     display: inline-block;
     margin-left: 3vw;
 }
+#map{
+    width: 36vw;
+    height: 50vh; 
+    border: 0;
+    
+}
 
 .location {
     position: relative;
@@ -229,10 +235,6 @@ footer h3 {
     padding-left: 20%;
     color: rgb(224, 50, 12);
     font-size: 30px;
-}
-.card h3 i:hover {
-    text-shadow: 0 0 3px 5px rgb(224, 50, 12);
-    transform: scale(1.1);
 }
 .card:hover{
     transform: scale(1.05)
