@@ -78,11 +78,13 @@ a{
 }
 
 .container-3 div{    
-    padding-left: 3vh;
-    padding-top: 25vh;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-left: 1.5vw;
 }
 
 .container-3 div p{
+    padding-top: 2.5vh;
     font-size: 1.6rem;
     padding-bottom: 2vh;
 }
@@ -91,7 +93,7 @@ a{
     font-family: "Times New Roman", Times, serif;
     font-size: 1.2rem;
     position: relative;
-    left: 27vh;
+    margin-left: 34%;
 }
 
 .container-4{
@@ -147,18 +149,17 @@ footer h3 {
 }
 .location, .map {
     display: inline-block;
-    margin-left: 3vw;
+    margin-left: 2vw;
 }
 #map{
     width: 36vw;
     height: 50vh; 
     border: 0;
-    
 }
 
 .location {
     position: relative;
-    bottom: 16vh;
+    bottom: 8.5vh;
     font-size: 1.6rem;
     color: #ECB365;
 }
@@ -169,6 +170,7 @@ footer h3 {
 }
 .location p {
     padding-bottom: 1rem;
+    
 }
 
 
