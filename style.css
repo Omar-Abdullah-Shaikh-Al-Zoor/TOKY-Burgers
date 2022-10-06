@@ -48,7 +48,7 @@ a{
   display: inline-block;
   margin: 0.2vw;
   cursor: pointer;
-  border-radius: 15px;
+  border-radius: 15px;   /* px??*/
   font-size: 1.2em;  
 }
 .pages-nav:hover, .menu-nav-button:hover, #info-button:hover{
@@ -66,7 +66,7 @@ a{
 }
 
 .container-3{
-    padding: 20px;
+    padding: 2vh 1vw;
     display: flex;
     justify-content: space-between;
     color: #ECB365;
@@ -110,7 +110,7 @@ a{
 
 footer {
     background-color: #04293A;
-    padding: 5px;
+    padding: 0.5vh;
     color: #ECB365;
 }
 footer h3 {
@@ -124,7 +124,8 @@ footer h3 {
 
 .history {
     width: 90vw;
-    margin: 50px;
+    margin: 4vh;
+    margin-left: 0vw;
     margin-top: 0%;
    
 }
@@ -201,7 +202,7 @@ footer h3 {
     font-size: 2rem;
     margin: 10vh 77vh 2vh 77vh;
     padding: 0.8rem;
-    border:0.3rem solid #ECB365;
+    border: 0.3rem solid #ECB365;
     border-radius: 2rem;
     border-width: 0.7rem 0.7rem;
 
@@ -217,16 +218,15 @@ footer h3 {
 
 .card img {
     width: 100%;
-    border-radius: 5% ;
+    border-radius: 5%;
 }
 
 .card{
     background-color: white;
     width: 15.25rem;
-    box-shadow: 0 5px 25px rgba(1,1,1,0.15);
-    border-radius: 30px ;
-    padding: 25px;
-    margin: 15px;
+    border-radius: 5vh; /* right?*/
+    padding: 2vw;
+    margin: 1vw;
     transition: 0.5s ease;
 }
 
@@ -236,7 +236,7 @@ footer h3 {
 .card h3 i{
     padding-left: 20%;
     color: rgb(224, 50, 12);
-    font-size: 30px;
+    font-size: 10rem;
 }
 .card:hover{
     transform: scale(1.05)
@@ -258,11 +258,11 @@ form {
 input[type=text], textarea {
     width: 100%;
     padding: 1vh;
-    border: 1px solid #ccc;
+    border: 1px solid #ccc; /*right?*/
     border-radius: 4px;
     box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
+    margin-top: 0.5vh;
+    margin-bottom: 2vh;
     resize: vertical;
   }
 
