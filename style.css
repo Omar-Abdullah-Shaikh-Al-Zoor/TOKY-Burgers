@@ -175,7 +175,7 @@ footer h3 {
 .location {
     position: relative;
     bottom: 8.5vh;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     color: #ECB365;
 }
 .location h4 {
@@ -184,6 +184,7 @@ footer h3 {
 
 }
 .location p {
+    font-family: 'Times New Roman', Times, serif;
     padding-bottom: 1rem;
     
 }
@@ -275,7 +276,7 @@ footer h3 {
 }
 
 form {
-    padding: 2vh;
+    padding: 1vh;
 }
 
 input[type=text], textarea {
@@ -308,7 +309,7 @@ input[type=text], textarea {
   .container-contact {
     border-radius: 1rem;
     background-color: #f2f2f2;
-    padding: 1vh;
+    padding: 2.3vh;
     margin: 0vh 25vw 10vh;
   }
 
