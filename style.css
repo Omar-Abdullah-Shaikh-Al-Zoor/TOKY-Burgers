@@ -48,7 +48,7 @@ form {
   display: inline-block;
   margin: 0.2vw;
   cursor: pointer;
-  border-radius: 15px;   /* px??*/
+  border-radius: 15px;   
   font-size: 1.2em;  
 }
 .pages-nav:hover, .menu-nav-button:hover, #info-button:hover{
@@ -61,8 +61,8 @@ form {
     margin-top: 1vh;
     display: block;
     width: 80%;
-    margin-left: 0;
-    margin-right: 2;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .container-3{
@@ -95,6 +95,9 @@ form {
     position: relative;
     margin-left: 34%;
 }
+.container-3 div h1{
+    font-size: 4.5vw;
+}
 
 .container-4{
     display: flex;
@@ -108,7 +111,15 @@ form {
     padding: 0 1vh 0 0.7vh;
     font-size: 1.5rem;
     color:#ECB365;
+    text-align: center;
     
+    
+}
+#reviews-title{
+    text-align: center;
+    font-size: 5vw;
+    margin: 2vh;
+    color: #ECB365;
 }
 
 footer {
@@ -118,13 +129,14 @@ footer {
 }
 
 .icons-div {
-    margin-left: 42.2vw;
-}
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;}
 .icon {
     
     padding: 1vw;
-    width: 72px;
-    height: 72px;
+    width: 5em;
+    height: 5em;
 
 }
 footer h3 {
@@ -137,14 +149,13 @@ footer h3 {
 /* Details Page*/
 
 .history {
-    width: 90vw;
-    margin: 4vh;
-    margin-left: 0vw;
-    margin-top: 0%;
-   
+    width: 60vw;
+    margin-bottom: 4vh;
+    margin-left: 20vw;
+    margin-right: 20vw;
+
 }
 .history h3 {
-    text-align: center;
     text-align: center;
     font-size: 2.1rem;
     padding: 2rem;
@@ -152,12 +163,9 @@ footer h3 {
 }
 .history p {
     font-family: 'Times New Roman', Times, serif;
-    padding-left: 10%;
     font-size: 1.5rem;
     color: #ECB365;
-
 }
-
 .loc-details {
     display:inline-block;
     margin: 0 0 0 15vw;
@@ -239,7 +247,7 @@ footer h3 {
 .card{
     background-color: white;
     width: 15.25rem;
-    border-radius: 5vh; /* right?*/
+    border-radius: 2em; 
     padding: 2vw;
     margin: 1vw;
     transition: 0.5s ease;
@@ -250,16 +258,18 @@ footer h3 {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
 }
-.card h3 desc{
+.card p{
+    padding-top: 1vh;
+    padding-bottom: 1vh;
     font-size: 16px;
     font-family: 'Courier New', Courier, monospace;
-    font-weight: 550;
+    font-weight: 500;
 }
 
 .card h4 {
     font-size: 15px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .card:hover{
