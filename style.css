@@ -117,6 +117,17 @@ footer {
     padding: 0.5vh;
     color: #ECB365;
 }
+
+.icons-div {
+    margin-left: 42.2vw;
+}
+.icon {
+    
+    padding: 1vw;
+    width: 72px;
+    height: 72px;
+
+}
 footer h3 {
     text-align: center;
 }
