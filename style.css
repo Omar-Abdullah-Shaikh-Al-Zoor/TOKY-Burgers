@@ -10,7 +10,6 @@ header {
     background-color: #04293A;
     z-index: 999;
     height: 14vh;
-    
 }
 
 body{
@@ -29,8 +28,13 @@ main {
     height: 14vh; 
     align-items: center;
 }
-a{
-    text-decoration: none;
+form {
+    display: inline;
+    margin: -1vh;
+
+
+}
+form button{
 }
 .logo img{
     width: 6vw;
