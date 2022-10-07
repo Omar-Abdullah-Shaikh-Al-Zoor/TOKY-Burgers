@@ -31,13 +31,9 @@ main {
 form {
     display: inline;
     margin: -1vh;
-
-
-}
-form button{
 }
 .logo img{
-    width: 8.5vw;
+    width: 8vw;
     padding-left: 2rem;
     
  }
