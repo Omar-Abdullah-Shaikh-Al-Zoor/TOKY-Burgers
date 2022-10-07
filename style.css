@@ -64,9 +64,9 @@ form button{
 .featured_img {
     margin-top: 1vh;
     display: block;
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 80%;
+    margin-left: 0;
+    margin-right: 2;
 }
 
 .container-3{
@@ -105,11 +105,14 @@ form button{
     justify-content: space-between;
     flex-basis: 20%;
     padding: 6vh 10vh 6vh 10vh;
+    
 }
 
 .reviews p, .reviews h4{
     padding: 0 1vh 0 0.7vh;
     font-size: 1.5rem;
+    color:#ECB365;
+    
 }
 
 footer {
