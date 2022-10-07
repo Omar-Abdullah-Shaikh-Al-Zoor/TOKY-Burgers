@@ -31,14 +31,10 @@ main {
 form {
     display: inline;
     margin: -1vh;
-
-
-}
-form button{
 }
 .logo img{
-    width: 6vw;
-    padding-left: 1rem;
+    width: 8vw;
+    padding-left: 2rem;
     
  }
 
@@ -64,9 +60,9 @@ form button{
 .featured_img {
     margin-top: 1vh;
     display: block;
-    width: 60%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 80%;
+    margin-left: 0;
+    margin-right: 2;
 }
 
 .container-3{
@@ -105,11 +101,14 @@ form button{
     justify-content: space-between;
     flex-basis: 20%;
     padding: 6vh 10vh 6vh 10vh;
+    
 }
 
 .reviews p, .reviews h4{
     padding: 0 1vh 0 0.7vh;
     font-size: 1.5rem;
+    color:#ECB365;
+    
 }
 
 footer {
@@ -199,7 +198,7 @@ footer h3 {
     padding: 1.5rem;
 }
 .menu h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
     margin-left: 6vh;
 }
 .menu-nav nav {
@@ -246,13 +245,22 @@ footer h3 {
 }
 
 .card h3 {
-    font-size: 25px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
 }
-.card h3 i{
-    padding-left: 20%;
-    color: rgb(224, 50, 12);
-    font-size: 10rem;
+.card h3 desc{
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 550;
 }
+
+.card h4 {
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+
 .card:hover{
     transform: scale(1.05)
 }
