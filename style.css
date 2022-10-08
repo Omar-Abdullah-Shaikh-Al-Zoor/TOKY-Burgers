@@ -22,9 +22,9 @@ main {
     
 }
 .container {
+    margin: 0 7vw 0 7vw;
     display: flex;
     justify-content: space-between;
-    width: 98vw;
     height: 14vh; 
     align-items: center;
 }
