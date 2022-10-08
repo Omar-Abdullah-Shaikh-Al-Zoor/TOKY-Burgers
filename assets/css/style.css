@@ -35,9 +35,7 @@ form {
 .logo img{
     width: 8vw;
     padding-left: 2rem;
-    
- }
-
+}
 .pages-nav, .menu-nav-button, #info-button{
   background-color: #ECB365;
   border: none;
@@ -335,9 +333,9 @@ input[type=text], textarea {
     margin-top: 0.5vh;
     margin-bottom: 2vh;
     resize: vertical;
-  }
+}
 
-  input[type=submit] {
+input[type=submit] {
     font-size: 1rem;
     background-color: #ECB365;
     color: rgb(0, 0, 0);
@@ -347,19 +345,16 @@ input[type=text], textarea {
     cursor: pointer;
     position: relative;
     left: 42%;
-  }
-
-  input[type=submit]:hover {
+}
+input[type=submit]:hover {
     background-color: #45a049;
-  }
-
-  .container-contact {
+}
+.container-contact {
     border-radius: 1rem;
     background-color: #f2f2f2;
     padding: 2.3vh;
     margin: 0vh 25vw 10vh;
-  }
-
-  #message{
+}
+#message{
     height: 17vh;
-  }
+}
