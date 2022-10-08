@@ -146,11 +146,8 @@ footer {
     margin-right: auto;
     width: fit-content;}
 .icon {
-    
     padding: 1vw;
-    width: 5em;
-    height: 5em;
-
+    width: 5vw;
 }
 footer h3 {
     text-align: center;
@@ -285,11 +282,37 @@ footer h3 {
 }
 
 /* Contact Page */
+.contact-info {
+    color: #ECB365;
+    margin: 8vh;
+
+}
+.contact-info h2{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 1vh;
+}
+.contact-info div{
+    margin:4vh 8vw 0vw 8vw;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-info h4 {
+    font-size: 1.7rem;
+    padding: 2vh;
+}
+.contact-info p{
+    font-size: 1.3rem;
+}
+.icon-1 {
+    padding: 1vw;
+    width: 5vw;
+}
 #contact-h3 {
     text-align: center;
     font-size: 2.1rem;
-    padding-top: 6vh;
-    padding-bottom: 2vh;
+    padding-top: 1vh;
+    padding-bottom: 5vh;
     color: #ECB365;
 }
 
