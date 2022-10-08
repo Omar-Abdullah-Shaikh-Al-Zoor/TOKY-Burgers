@@ -302,13 +302,12 @@ footer h3 {
 /* Contact Page */
 .contact-info {
     color: #ECB365;
-    margin: 8vh;
-
+    margin: 5vh;
 }
 .contact-info h2{
     font-size: 3.5rem;
     text-align: center;
-    margin-bottom: 1vh;
+    margin-bottom: 3vh;
 }
 .contact-info label{
     font-size: 1.3rem;
