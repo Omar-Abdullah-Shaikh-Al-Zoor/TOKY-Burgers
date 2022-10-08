@@ -70,6 +70,7 @@ form {
     margin-left: auto;
     margin-right: auto;
 }
+
 .container-3{
     padding: 2vh 1vw;
     display: flex;
@@ -139,32 +140,14 @@ footer {
     padding: 0.5vh;
     color: #ECB365;
 }
-.footer-content {
-    display: flex;
-    justify-content: space-between;
-}
+
 .icons-div {
     margin-left: auto;
     margin-right: auto;
-    width: fit-content;
-}
+    width: fit-content;}
 .icon {
     padding: 1vw;
-    width: 5vw;
-}
-.footer-contact {
-    font-size: 1.3rem;
-    margin-left: 5vw;
-    margin-top: 2.5vh;
-}
-.footer-contact h4{ 
-    padding-left: 7vw;
-}
-.footer-phone {
-    font-size: 1.7rem;
-    margin-right: 5vw;
-    margin-top: 4.5vh;
-
+    width: 4.5vw;
 }
 footer h3 {
     text-align: center;
@@ -302,12 +285,26 @@ footer h3 {
 /* Contact Page */
 .contact-info {
     color: #ECB365;
-    margin: 5vh;
+    margin: 8vh;
+
 }
 .contact-info h2{
     font-size: 3.5rem;
     text-align: center;
-    margin-bottom: 3vh;
+    margin-bottom: 1vh;
+}
+.contact-info div{
+    margin: 2vh 6vw 0vw 11vw;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-info h4 {
+    font-size: 1.35rem;
+    margin-top: 12vh;
+    padding-bottom: 1vh;
+}
+.contact-info p{
+    font-size: 1.3rem;
 }
 .contact-info label{
     font-size: 1.3rem;
