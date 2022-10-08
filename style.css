@@ -299,8 +299,9 @@ footer h3 {
     justify-content: space-between;
 }
 .contact-info h4 {
-    font-size: 1.7rem;
-    padding: 2vh;
+    font-size: 1.35rem;
+    margin-top: 5vh;
+    padding-bottom: 1vh;
 }
 .contact-info p{
     font-size: 1.3rem;
