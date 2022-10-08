@@ -102,6 +102,7 @@ form {
 }
 .container-3 div h1{
     font-size: 3.7rem;
+    color: #eaa341;
 }
 
 .container-4{
@@ -117,13 +118,13 @@ form {
 
 .reviews p{
     padding: 0.7vh;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     color:#ECB365;
     text-align: left;
 }
 .reviews h4 {
     text-align: center;
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     color:#ECB365;
 }
 #reviews-title{
@@ -131,7 +132,7 @@ form {
     font-size: 4rem;
     margin-top: 5vh;
     margin-bottom: 4vh;
-    color: #ECB365;
+    color: #eaa341;
 }
 
 footer {
@@ -166,12 +167,11 @@ footer h3 {
 }
 .history h3 {
     text-align: center;
-    font-size: 2.1rem;
+    font-size: 3.5rem;
     padding: 2rem;
     color: #eaa341;
 }
 .history p {
-    font-family: 'Times New Roman', Times, serif;
     font-size: 1.5rem;
     color: #ECB365;
 }
@@ -215,6 +215,7 @@ footer h3 {
 .menu h1 {
     font-size: 3.5rem;
     margin-left: 6vh;
+    
 }
 .menu-nav nav {
     padding-top: 0.9vh;
@@ -222,7 +223,7 @@ footer h3 {
 }
 .menu h1, .menu-cards h2 {
     text-align: center;
-    color: #ECB365;
+    color:#eaa341;
 }
 .menu-cards {
     margin: -3vh 0 10vh 0;
@@ -287,7 +288,7 @@ footer h3 {
 
 }
 .contact-info h2{
-    font-size: 3rem;
+    font-size: 3.5rem;
     text-align: center;
     margin-bottom: 1vh;
 }
@@ -302,6 +303,10 @@ footer h3 {
 }
 .contact-info p{
     font-size: 1.3rem;
+}
+.contact-info label{
+    font-size: 1.3rem;
+    color: black;
 }
 .icon-1 {
     padding: 1vw;
@@ -333,7 +338,7 @@ input[type=text], textarea {
   input[type=submit] {
     font-size: 1rem;
     background-color: #ECB365;
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 2vh 4vh;
     border: none;
     border-radius: 0.7rem;
