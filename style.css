@@ -293,16 +293,16 @@ footer h3 {
     margin-bottom: 1vh;
 }
 .contact-info div{
-    padding-bottom: 2vh;
     margin:4vh 8vw 0vw 8vw;
     display: flex;
     justify-content: space-between;
 }
 .contact-info h4 {
     font-size: 1.7rem;
+    padding: 2vh;
 }
 .contact-info p{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 .icon-1 {
     padding: 1vw;
@@ -312,7 +312,7 @@ footer h3 {
     text-align: center;
     font-size: 2.1rem;
     padding-top: 1vh;
-    padding-bottom: 2vh;
+    padding-bottom: 5vh;
     color: #ECB365;
 }
 
