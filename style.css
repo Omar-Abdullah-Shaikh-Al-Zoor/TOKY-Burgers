@@ -57,6 +57,12 @@ form {
 .container-2 {
     margin-bottom: 1vh;
 }
+#info-button {
+    font-size: 1.7rem;
+    width: 10vw;
+    position: absolute;
+    right: 14%;
+}
 .featured_img {
     margin-top: 1vh;
     display: block;
@@ -96,29 +102,35 @@ form {
     margin-left: 34%;
 }
 .container-3 div h1{
-    font-size: 4.5vw;
+    font-size: 3.7rem;
 }
 
 .container-4{
     display: flex;
     justify-content: space-between;
     flex-basis: 20%;
-    padding: 6vh 10vh 6vh 10vh;
-    
+    padding: 0.5vh 10vh 6vh 10vh;
 }
 
-.reviews p, .reviews h4{
-    padding: 0 1vh 0 0.7vh;
-    font-size: 1.5rem;
+.container-4 div {
+    padding: 1.3vw;
+}
+
+.reviews p{
+    padding: 0.7vh;
+    font-size: 1.4rem;
     color:#ECB365;
+    text-align: left;
+}
+.reviews h4 {
     text-align: center;
-    
-    
+    font-size: 1.7rem;
+    color:#ECB365;
 }
 #reviews-title{
     text-align: center;
-    font-size: 5vw;
-    margin: 2vh;
+    font-size: 4rem;
+   margin-top: 5vh;
     color: #ECB365;
 }
 
@@ -254,20 +266,20 @@ footer h3 {
 }
 
 .card h3 {
-    font-size: 20px;
+    font-size: 1.4rem;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
 }
 .card p{
     padding-top: 1vh;
     padding-bottom: 1vh;
-    font-size: 16px;
+    font-size: 1.1rem;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 500;
 }
 
 .card h4 {
-    font-size: 15px;
+    font-size: 0.9rem;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 600;
 }
