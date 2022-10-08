@@ -275,8 +275,9 @@ footer h3 {
 }
 
 .card h4 {
-    font-size: 0.9rem;
+    font-size: 1.3rem;
     font-weight: 600;
+    margin-top: 1vh;
 }
 
 .card:hover{
